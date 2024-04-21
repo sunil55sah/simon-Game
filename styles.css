@@ -1,0 +1,90 @@
+/* Center align text and set background color for the body */
+body {
+  text-align: center;
+  background-color: #0077be; /* Dark blue background */
+}
+
+/* Styling for the level title */
+#level-title {
+  font-family: 'Press Start 2P', cursive; /* Use Press Start 2P font */
+  font-size: 3rem; /* Large font size */
+  margin:  5%; /* Margin for spacing */
+  color: #FEF2BF; /* Light yellow color for text */
+}
+
+/* Styling for the game container */
+.container {
+  display: block; /* Block level element */
+  width: 50%; /* Width of the container */
+  margin: auto; /* Center align container */
+}
+
+/* Styling for game buttons */
+.btn {
+  margin: 25px; /* Margin around buttons */
+  display: inline-block; /* Inline block element */
+  height: 200px; /* Height of buttons */
+  width: 200px; /* Width of buttons */
+  border: 10px solid black; /* Border style */
+  border-radius: 20%; /* Border radius for rounded corners */
+}
+
+/* Styling for game over state */
+.game-over {
+  background-color: red; /* Red background color */
+  opacity: 0.8; /* Opacity for transparency */
+}
+
+/* Styling for red button */
+.red {
+  background-color: red; /* Red background color */
+}
+
+/* Styling for green button */
+.green {
+  background-color: green; /* Green background color */
+}
+
+/* Styling for blue button */
+.blue {
+  background-color: blue; /* Blue background color */
+}
+
+/* Styling for yellow button */
+.yellow {
+  background-color: yellow; /* Yellow background color */
+}
+
+/* Styling for pressed state of buttons */
+.pressed {
+  box-shadow: 0 0 20px white; /* White box shadow effect */
+  background-color: grey; /* Grey background color */
+}
+
+
+
+/* Styles for the notes container */
+.notes {
+  max-width: 600px; /* Set maximum width */
+  margin: 0 auto; /* Center the container horizontally */
+  background-color: #fff; /* White background */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Add padding */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+}
+
+/* Styles for heading */
+h1 {
+  text-align: center; /* Center align the heading */
+}
+
+/* Styles for unordered list */
+ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+}
+
+/* Styles for list items */
+li {
+  margin-bottom: 10px; /* Add margin between list items */
+}
